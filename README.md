@@ -2,7 +2,7 @@
 
 Landing page practise project, made in Astro.
 
-![Landing Page Preview]()
+![Landing Page Preview](https://raw.githubusercontent.com/kmeaw01/landing-page/refs/heads/main/preview.png)
 
 ## 🚀 Project Structure
 
