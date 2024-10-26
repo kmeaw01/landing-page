@@ -1,6 +1,6 @@
 # The Odin Project: Landing Page
 
-Landing page practise project, made in astro.
+Landing page practise project, made in Astro.
 ## 🚀 Project Structure
 
 Inside of the project, you'll see the following folders and files:
@@ -12,6 +12,7 @@ Inside of the project, you'll see the following folders and files:
 ├── src/
 │   ├── components/
 │   │   ├── CallToAction.astro
+│   │   ├── Card.astro
 │   │   ├── Footer.astro
 │   │   ├── Header.astro
 │   │   ├── Hero.astro
