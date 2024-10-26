@@ -1,0 +1,58 @@
+<section id="hero" class="hero">
+  <div class="container">
+    <div class="hero-content">
+      <h1>This website is awesome</h1>
+      <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
+      <button>Sign up</button>
+    </div>
+    <div class="hero-image">
+      <div class="placeholder">this is a placeholder for an image</div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .hero {
+    background-color: var(--dark-bg);
+    padding: 6rem 0;
+    scroll-margin-top: 4rem;
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    align-items: center;
+  }
+  .hero-content h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: var(--primary-text);
+    margin-bottom: 1rem;
+  }
+  .hero-content p {
+    font-size: 18px;
+    color: var(--secondary-text);
+    margin-bottom: 1.5rem;
+  }
+  button {
+    background-color: var(--button-color);
+    color: white;
+    border: none;
+    padding: 0.5rem 2rem;
+    border-radius: 6px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  .placeholder {
+    background-color: #6b7280;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--secondary-text);
+    border-radius: 8px;
+  }
+</style>

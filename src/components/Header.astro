@@ -1,0 +1,44 @@
+<nav class="header">
+  <div class="container">
+    <div class="logo">Header Logo</div>
+    <div class="links">
+      <a href="#hero" class="nav-link">Hero</a>
+      <a href="#info" class="nav-link">Info</a>
+      <a href="#quote" class="nav-link">Quote</a>
+    </div>
+  </div>
+</nav>
+
+<style>
+  .header {
+    background-color: var(--dark-bg);
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo {
+    color: var(--primary-text);
+    font-size: 24px;
+  }
+  .links {
+    display: flex;
+    gap: 2rem;
+  }
+  .nav-link {
+    color: var(--secondary-text);
+    text-decoration: none;
+    font-size: 18px;
+  }
+  .nav-link:hover {
+    color: var(--primary-text);
+  }
+</style>
